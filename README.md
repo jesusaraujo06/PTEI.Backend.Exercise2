@@ -124,6 +124,9 @@ La solución esta creada de tal forma que:
 - Se utiliza la inyección de dependencias
 - Se utiliza Dapper como MicroORM para el acceso a los datos
 
+### Pendiente o por mejorar
+- Paginar los resultados de la WEB API.
+
 ## **Descripción de la prueba técnica**
 En este ejercicio, se te pide que desarrolles un controlador en una Web API .NET Core C# que
 implemente el principio SOLID de Inversión de Dependencias. El controlador debe permitir a los
