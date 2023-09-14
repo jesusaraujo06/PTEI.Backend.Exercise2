@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTEI.Backend.Exercise2", "PTEI.Backend.Exercise2\PTEI.Backend.Exercise2.csproj", "{754B4CA9-7F2A-49F9-A71E-008C2DFBDB97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerSearch.API", "PTEI.Backend.Exercise2\CustomerSearch.API.csproj", "{754B4CA9-7F2A-49F9-A71E-008C2DFBDB97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerSearch.Domain", "CustomerSearch.Domain\CustomerSearch.Domain.csproj", "{B8BC8F7B-566E-4FBE-AE14-7BD05AFFC801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerSearch.Data", "CustomerSearch.Data\CustomerSearch.Data.csproj", "{F6A0DCF1-FC16-4868-B452-C1CFACEA9252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerSearch.Shared", "CustomerSearch.Shared\CustomerSearch.Shared.csproj", "{BB06338E-A2C4-472D-909F-382C24DF3C2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{754B4CA9-7F2A-49F9-A71E-008C2DFBDB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{754B4CA9-7F2A-49F9-A71E-008C2DFBDB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{754B4CA9-7F2A-49F9-A71E-008C2DFBDB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BC8F7B-566E-4FBE-AE14-7BD05AFFC801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BC8F7B-566E-4FBE-AE14-7BD05AFFC801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BC8F7B-566E-4FBE-AE14-7BD05AFFC801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BC8F7B-566E-4FBE-AE14-7BD05AFFC801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A0DCF1-FC16-4868-B452-C1CFACEA9252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A0DCF1-FC16-4868-B452-C1CFACEA9252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A0DCF1-FC16-4868-B452-C1CFACEA9252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A0DCF1-FC16-4868-B452-C1CFACEA9252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB06338E-A2C4-472D-909F-382C24DF3C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB06338E-A2C4-472D-909F-382C24DF3C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB06338E-A2C4-472D-909F-382C24DF3C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB06338E-A2C4-472D-909F-382C24DF3C2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
