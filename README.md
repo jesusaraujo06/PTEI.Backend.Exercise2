@@ -130,7 +130,7 @@ implemente el principio SOLID de Inversión de Dependencias. El controlador debe
 usuarios realizar operaciones de búsqueda en una tabla de clientes en una base de datos SQL
 Server.
 
-###Requisitos
+**Requisitos**
 - La Web API debe implementar una clase Service que sea responsable de las operaciones de
 búsqueda en la tabla de clientes.
 - La Web API debe implementar un controlador que se encargue de manejar las solicitudes de los
@@ -141,7 +141,7 @@ clientes) se encapsule en la clase Service.
 - El controlador debe ser capaz de recibir solicitudes en formato JSON y devolver respuestas en
 formato JSON.
 
-###Entregables
+**Entregables**
 - El código fuente de la Web API en un repositorio de Git.
 - Un archivo README que explique cómo se puede ejecutar la Web API y cualquier otra información
 relevante.
