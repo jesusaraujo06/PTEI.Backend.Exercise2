@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerSearch.API", "PTEI.Backend.Exercise2\CustomerSearch.API.csproj", "{754B4CA9-7F2A-49F9-A71E-008C2DFBDB97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerSearch.API", "CustomerSearch.API\CustomerSearch.API.csproj", "{754B4CA9-7F2A-49F9-A71E-008C2DFBDB97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerSearch.Domain", "CustomerSearch.Domain\CustomerSearch.Domain.csproj", "{B8BC8F7B-566E-4FBE-AE14-7BD05AFFC801}"
 EndProject
